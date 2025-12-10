@@ -1,0 +1,18 @@
+INFO     root:conftest.py:21 ==== INICIO DE LA EJECUCIÓN ====
+INFO     root:conftest.py:29 Inicializando navegador Chrome
+INFO     root:conftest.py:38 Cerrando navegador
+INFO     root:conftest.py:29 Inicializando navegador Chrome
+ERROR    root:conftest.py:63 Test fallido: reports/screenshots\test_checkout_complete_2025-12-05_13-16-48.png
+INFO     root:conftest.py:38 Cerrando navegador
+INFO     root:conftest.py:29 Inicializando navegador Chrome
+INFO     root:conftest.py:38 Cerrando navegador
+INFO     root:conftest.py:29 Inicializando navegador Chrome
+INFO     root:conftest.py:38 Cerrando navegador
+INFO     root:conftest.py:29 Inicializando navegador Chrome
+INFO     root:conftest.py:38 Cerrando navegador
+INFO     root:conftest.py:29 Inicializando navegador Chrome
+INFO     root:conftest.py:38 Cerrando navegador
+INFO     root:conftest.py:29 Inicializando navegador Chrome
+INFO     root:conftest.py:38 Cerrando navegador
+INFO     root:conftest.py:29 Inicializando navegador Chrome
+INFO     root:conftest.py:38 Cerrando navegador
