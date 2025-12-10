@@ -8,7 +8,7 @@ with open("data/user.json") as f:
     user = json.load(f)["user"]
 
 def test_checkout_complete(driver):
-    """Flujo completo: login → agregar producto → carrito → checkout → finalizar."""
+    """Flujo: login + agregar producto + carrito + checkout + finalizar."""
 
     login_page = LoginPage(driver)
     inventory = InventoryPage(driver)

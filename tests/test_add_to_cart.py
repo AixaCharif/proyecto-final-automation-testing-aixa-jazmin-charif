@@ -1,4 +1,3 @@
-# tests/test_add_to_cart.py
 import json
 from pages.login_page import LoginPage
 from pages.inventory_page import InventoryPage
@@ -9,7 +8,6 @@ with open("data/user.json") as f:
     user = json.load(f)["user"]
 
 def test_add_product_to_cart(driver):
-    """Añade un producto al carrito y valida que esté correctamente."""
     login_page = LoginPage(driver)
     inventory = InventoryPage(driver)
     cart = CartPage(driver)

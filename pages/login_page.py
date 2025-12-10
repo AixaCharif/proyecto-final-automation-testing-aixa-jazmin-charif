@@ -1,4 +1,3 @@
-# pages/login_page.py
 from selenium.webdriver.common.by import By
 
 class LoginPage:
@@ -13,7 +12,6 @@ class LoginPage:
         self.driver = driver
 
     def open(self):
-        """Abre la página de login."""
         self.driver.get(self.URL)
 
     def enter_username(self, username):
@@ -26,7 +24,6 @@ class LoginPage:
         self.driver.find_element(*self.LOGIN_BUTTON).click()
 
     def login(self, username, password):
-        """Flujo completo de login."""
         self.open()
         self.enter_username(username)
         self.enter_password(password)
