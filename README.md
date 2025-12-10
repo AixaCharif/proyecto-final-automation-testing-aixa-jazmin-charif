@@ -16,6 +16,7 @@ Las pruebas fueron realizadas sobre el sitio **https://www.saucedemo.com** y una
 ---
 
 ## 📁 Estructura del Proyecto
+```
 proyecto-final/
 │
 ├── config/
@@ -51,7 +52,7 @@ proyecto-final/
 ├── pytest.ini
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## ⚙️ Tecnologías utilizadas
